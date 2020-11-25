@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main()
+{
+	int  a, c, b;
+	int p,S;
+	printf("Input a - side :");
+	scanf("%d", &a);
+
+	printf("\nInput b - side :");
+	scanf("%d", &b);
+
+	printf("\nInput c - side :");
+	scanf("%d", &c);
+
+	p = (a + b + c) / 2;
+	S = sqrt(p * (p - a)*(p - b)*(p - c));
+	for(S = 0; S < .9; .1S++)
+        S += 0.1;
+
+    printf("p = %d\n",p);
+	printf("Unswer is S = %d", S);
+	return 0;
+}
+
